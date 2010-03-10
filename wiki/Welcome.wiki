@@ -1,0 +1,14 @@
+#summary Home Page
+#labels Phase-Requirements,Featured,Phase-Design
+
+= Introduction =
+Welcome to the Wiki for the WiiRemoteControl Project.
+
+
+
+= Details =
+
+The WiiRemoteControl project aims to design a program that is able to transform the WiiRemote into several types of controller:
+  * *IR Presentation Pointer* - A classic point and click mouse device
+  * *Media Center Remote* - Use gestures to control your media
+  * *Multi-'touch' HID* - Using Johnny Lee's principle of reverse IR reflection to make a hand based multi touch device
