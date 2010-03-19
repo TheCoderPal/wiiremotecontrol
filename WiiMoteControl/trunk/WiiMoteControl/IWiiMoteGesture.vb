@@ -1,5 +1,4 @@
-﻿
-Public Interface IWiiMoteGesture
+﻿Public Interface IWiiMoteGesture
     Enum Gesture
         FlickRight = 0
         FlickLeft = 1
@@ -14,6 +13,7 @@ Public Interface IWiiMoteGesture
 
     Property InputQueue() As Queue(Of Double)
 
+    Property Input() As Double
 
     Event GestureMatchFound(ByVal Gesture As IWiiMoteGesture.Gesture)
 

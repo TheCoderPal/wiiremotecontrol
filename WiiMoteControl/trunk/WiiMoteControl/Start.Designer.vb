@@ -29,7 +29,7 @@ Partial Class Start
         '
         'Btn_Connect
         '
-        Me.Btn_Connect.Location = New System.Drawing.Point(70, 27)
+        Me.Btn_Connect.Location = New System.Drawing.Point(49, 27)
         Me.Btn_Connect.Name = "Btn_Connect"
         Me.Btn_Connect.Size = New System.Drawing.Size(75, 23)
         Me.Btn_Connect.TabIndex = 0
@@ -45,7 +45,7 @@ Partial Class Start
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(215, 77)
+        Me.ClientSize = New System.Drawing.Size(173, 77)
         Me.Controls.Add(Me.Btn_Connect)
         Me.Name = "Start"
         Me.Text = "Start Form"
