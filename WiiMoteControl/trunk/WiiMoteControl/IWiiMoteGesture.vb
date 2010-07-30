@@ -5,7 +5,6 @@
         FlickUp = 2
         FlickDown = 3
     End Enum
-
     'USE a queue to read off the gesture values.
     'Each time a gesture value is received, the value is added to the queue, the queue
     'is scanned for matching the gesture and returns true if a match is found, else
@@ -13,11 +12,9 @@
 
     Property InputQueue() As Queue(Of Double)
 
-    Property Input() As Double
-
     Event GestureMatchFound(ByVal Gesture As IWiiMoteGesture.Gesture)
 
-    Function ScanForGesture(ByVal InputQueue As Queue) As Boolean
+    Function ScanForGesture(ByVal InputQueue As Queue(Of Double)) As Boolean
 
     Sub Update(ByVal NewInputValue As Double)
 
